@@ -142,4 +142,7 @@ messenger.registerHandler(PartyInvite.class, (msg, source, target) -> {
 ## 📖 License
 
 MIT License © 2025 NextForge | See [LICENSE](LICENSE) for details.
-```
+
+## 📞 Support
+For issues, suggestions, or contributions, please open an issue on GitHub: [NextPluginMessaging Issues](github.com/NextForge-Development/NextPluginMessaging/issues)
+Or join our Discord: [NextForge Discord](https://discord.com/invite/nextforge)
