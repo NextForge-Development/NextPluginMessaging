@@ -61,9 +61,9 @@ repositories {
 }
 
 dependencies {
-    implementation("gg.nextforge:nextpluginmessaging-api:1.0.0")
-    implementation("gg.nextforge:nextpluginmessaging-bukkit:1.0.0") // for Paper
-    implementation("gg.nextforge:nextpluginmessaging-velocity:1.0.0") // for Velocity
+    implementation("gg.nextforge:pluginmessaging-api:1.0.0")
+    implementation("gg.nextforge:pluginmessaging-bukkit:1.0.0") // for Paper
+    implementation("gg.nextforge:pluginmessaging-velocity:1.0.0") // for Velocity
 }
 ```
 
