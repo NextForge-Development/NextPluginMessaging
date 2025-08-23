@@ -53,6 +53,13 @@ NextPluginMessaging/
 Add the dependency to your module:
 
 ```kotlin
+repositories {
+    maven {
+        name = "nextforge-repo"
+        url = uri("https://repo.nextforge.gg/releases")
+    }
+}
+
 dependencies {
     implementation("gg.nextforge:nextpluginmessaging-api:1.0.0")
     implementation("gg.nextforge:nextpluginmessaging-bukkit:1.0.0") // for Paper
@@ -60,7 +67,7 @@ dependencies {
 }
 ```
 
-And make sure you have the Paper/Velocity repositories:
+And make sure you have the Paper repository:
 
 ```kotlin
 repositories {
